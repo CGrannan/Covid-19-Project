@@ -2,4 +2,4 @@
 
 This project is designed to track covid-19 infections, hospitalizations, death rates and vacine deployment in the United States compared to the world as a whole. The dataset comes from Our World in Data. Each row in the dataset reflects any updates in a specific country for one day. There are 59 columns for the dataset that track infection and death statistics as well as population and infrastructure statistics for each country. For a deep look at what the dataset entails, check out OWiD's github [repository](https://github.com/owid/covid-19-data/tree/master/public/data). The readme does a really nice job of outlining what information is present, how it was collected, and any changes that have been made.
 
-I will be working with several models for this project including Exponential Smoothing, ARIMA and SARIMAX.
+I will be working with three types of time series analysis models: Exponential Smoothing, ARIMA and SARIMAX.I will be fitting the Exponential Smoothing and ARIMA models based off of the shape and patterns of the data, but will will vbe using auto_arima to fit the SARIMAX models.
